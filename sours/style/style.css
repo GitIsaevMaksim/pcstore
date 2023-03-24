@@ -1,0 +1,19 @@
+body{
+  background: linear-gradient(90deg, #39064A 0%, #230E5D 100%);
+}
+
+.nav-link{
+  color: #e6d8e1;
+}
+
+.navbar-nav .nav-link.active{
+  color: rgb(82, 88, 93);
+}
+
+.navbar-brand>img{
+  width: 40px;
+}
+
+.navbar-toggler {
+  background-color: rgb(221, 216, 222);
+}
