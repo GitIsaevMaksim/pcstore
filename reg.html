@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DED</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="sours/style/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="sours/files/favicon_io (1)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="sours/files/favicon_io (1)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="sours/files/favicon_io (1)/favicon-16x16.png">
+<link rel="manifest" href="sours/files/favicon_io (1)/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img
+                        src="sours/images/pngwing.com (1).png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="price.html">Pricing</a>
+                        <a class="nav-link" href="https://t.me/Ded_Kaneky">Ubout us</a>
+                        <a class="nav-link active" href="reg.html">Registration</a>
+                        <a class="nav-link" href="https://www.donationalerts.com/r/ded_kaneky">Support</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+        <form class="row g-3 needs-validation m-4 mt-5" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Имя</label>
+              <input type="text" class="form-control" id="validationCustom01" value="Иван" required>
+              <div class="valid-feedback">
+                Все хорошо!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Фамилия</label>
+              <input type="text" class="form-control" id="validationCustom02" value="Петров" required>
+              <div class="valid-feedback">
+                Все хорошо!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Имя пользователя</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Пожалуйста, выберите имя пользователя.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Город</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Укажите действующий город.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">Область</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Выберите...</option>
+                <option>Чувашия</option>
+                <option>Казань</option>
+                <option>Москва</option>
+                <option>Питер</option>
+              </select>
+              <div class="invalid-feedback">
+                Пожалуйста, выберите корректный город.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Индекс</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Пожалуйста, предоставьте действующий почтовый индекс.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Примите условия и соглашения
+                </label>
+                <div class="invalid-feedback">
+                  Вы должны принять перед отправкой.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Отправить форму</button>
+            </div>
+          </form>
+    </section>
+
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

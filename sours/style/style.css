@@ -1,19 +1,43 @@
-body{
-  background: linear-gradient(90deg, #39064A 0%, #230E5D 100%);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Roboto+Mono:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
 }
-
-.nav-link{
-  color: #e6d8e1;
-}
-
-.navbar-nav .nav-link.active{
-  color: rgb(82, 88, 93);
-}
-
 .navbar-brand>img{
-  width: 40px;
+    width: 40px;
+}
+.nav-link{
+    color: rgb(237, 237, 237);
 }
 
-.navbar-toggler {
-  background-color: rgb(221, 216, 222);
+.navbar-nav>.nav-link.active{
+    color: rgb(99, 101, 103);
+}
+.navbar-toggler{
+    background-color: aliceblue;
+}
+
+.zag{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+}
+
+.opis{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.text-opis{
+    font-size: 20px;
+}
+
+.navbar-right {
+    padding: 5px;
+    border-style: double;
+}
+.zagolovok-opisania{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 0;
 }
